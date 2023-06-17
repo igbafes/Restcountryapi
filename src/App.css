@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: hsl(207, 26%, 17%);
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.nav-ul {
+  margin-top: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  height: 10vh;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 5vw 0 5vw;
+  align-items: center;
+  background-color:  hsl(209, 23%, 22%);
+  color: #000;
+}
+
+.nav-li {
+  color: #fff;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
